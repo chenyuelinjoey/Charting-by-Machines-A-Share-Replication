@@ -31,27 +31,20 @@
 
 ### Model Architecture Diagram
 
-```
-Input (12, 1)
-    ↓
-Conv1D(64, 3) + ReLU
-    ↓
-MaxPooling1D(2)
-    ↓
-Conv1D(32, 3) + ReLU
-    ↓
-LSTM(50)
-    ↓
-Dropout(0.2)
-    ↓
-Dense(1) → MLER Prediction
+```mermaid
+flowchart TD
+    A["Input (12, 1)"] --> B["Conv1D(64, 3) + ReLU"]
+    B --> C["MaxPooling1D(2)"]
+    C --> D["Conv1D(32, 3) + ReLU"]
+    D --> E["LSTM(50)"]
+    E --> F["Dropout(0.2)"]
+    F --> G["Dense(1)"]
+    G --> H["MLER Prediction"]
 ```
 
 ---
 
 ## 📚 Citation
-
-### Paper
 
 ```
 Murray, S., Xia, Y., & Xiao, H. (2024). Charting by machines. Journal of Financial Economics, 153, 103791.
@@ -63,12 +56,8 @@ Murray, S., Xia, Y., & Xiao, H. (2024). Charting by machines. Journal of Financi
 
 This project is for academic research purposes only. All results are based on historical data and do not constitute investment advice. Past performance does not guarantee future results. 
 
-本项目仅供学术研究参考。所有结果均基于历史数据，不构成任何投资建议。过往表现不代表未来收益。
-
 ---
 
 ## ⭐ Star This Project
 
 If you find this replication useful, please give it a Star ⭐ on GitHub!
-
-如果这个复现项目对你有帮助，欢迎在 GitHub 上点个 Star ⭐！
