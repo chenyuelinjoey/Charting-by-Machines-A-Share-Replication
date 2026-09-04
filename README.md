@@ -46,9 +46,7 @@ flowchart TD
 
 ## 📚 Citation
 
-```
 Murray, S., Xia, Y., & Xiao, H. (2024). Charting by machines. Journal of Financial Economics, 153, 103791.
-```
 
 ---
 
