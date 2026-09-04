@@ -15,13 +15,12 @@
 
 《Charting by Machines》 (Murray, Xia, Xiao, 2024, 《Journal of Financial Economics》) 证明机器学习模型能够从历史价格形态中预测股票收益，挑战了有效市场假说。本项目使用 CSMAR 月度数据（1997–2024），在中国A股市场严格复现了该方法。
 
----
-
 ## 🧠 Methodology
 
 | Component | Specification |
 | :--- | :--- |
 | **Data Source** | CSMAR TRD_Mnth (monthly stock returns) |
+| **Sample Universe** | **CSI 300 Index Constituents** (300 largest A-share stocks) |
 | **Sample Period** | 1997–2024 (720,607 observations after cleaning) |
 | **Input Features** | CR₁–CR₁₂ (12 monthly cumulative returns) |
 | **Target Variable** | rNorm (cross-sectional normal score) |
@@ -42,19 +41,16 @@ flowchart TD
     G --> H["MLER Prediction"]
 ```
 
----
 
 ## 📚 Citation
 
 Murray, S., Xia, Y., & Xiao, H. (2024). Charting by machines. Journal of Financial Economics, 153, 103791.
 
----
 
 ## ⚠️ Disclaimer
 
 This project is for academic research purposes only. All results are based on historical data and do not constitute investment advice. Past performance does not guarantee future results. 
 
----
 
 ## ⭐ Star This Project
 
