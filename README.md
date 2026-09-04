@@ -52,7 +52,7 @@ Murray, S., Xia, Y., & Xiao, H. (2024). Charting by machines. Journal of Financi
 
 ---
 
-## ⚠️ Disclaimer 免责声明
+## ⚠️ Disclaimer
 
 This project is for academic research purposes only. All results are based on historical data and do not constitute investment advice. Past performance does not guarantee future results. 
 
